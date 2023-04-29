@@ -1,0 +1,4 @@
+/testtask/__pycache__/
+/users_api/__pycache__/
+/users_api/migrations/*
+/db.sqlite3
