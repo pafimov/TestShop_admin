@@ -2,3 +2,5 @@
 /users_api/__pycache__/
 /users_api/migrations/*
 /db.sqlite3
+*__pycache__
+*.env
