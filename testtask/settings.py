@@ -74,10 +74,19 @@ WSGI_APPLICATION = 'testtask.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+import environ
+
+env = environ.Env()
+environ.Env.read_env()
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': "django.db.backends.postgresql",
+        'NAME': env('NAME'), 
+        'USER': env('USER'),
+        'PASSWORD': env('PASSWORD'),
+        'HOST': env('HOST'), 
+        'PORT': env('PORT'),
     }
 }
 

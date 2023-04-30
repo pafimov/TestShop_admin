@@ -1,10 +1,10 @@
 from rest_framework import serializers
 
-from users_api.models import User
+from users_api.models import UserFree
 
-class UserSerializer(serializers.ModelSerializer):
+class UserFreeSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = UserFree
         fields = ('name',
                   'telegram_id',
                   'telegram_username',
