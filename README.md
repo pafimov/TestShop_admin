@@ -10,7 +10,7 @@ User comands:
 Admin comands:
 /add - Добавление нового товара
 
-In admin panel viewing objects and mailing is possible
+In admin panel viewing objects and mailing is possible.
 
 <code>pip install -r requirements.txt</code>
 
