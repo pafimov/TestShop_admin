@@ -221,6 +221,7 @@ async def order(message : types.Message, state : FSMContext):
         sum += thing.price * cart_object.count
     payload = payload[:-1]
     #send a payment to user
+    print("XD")
     try:
         await bot.send_invoice(chat_id= message.from_id, title='Покупка в TG магазине.', provider_token='381764678:TEST:55883', currency='rub',
                       prices=[types.LabeledPrice(label="Товары в корзине", amount=sum*100)], need_phone_number=True, description='Shop in TG payment',

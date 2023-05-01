@@ -1,10 +1,9 @@
 all_categories = {
-    'a' : ['g', 'h', 'i', 'j'],
-    'b' : ['g', 'h', 'i', 'j'],
-    'c' : ['g', 'h', 'i', 'j'],
-    'd' : ['g', 'h', 'i', 'j'],
-    'e' : ['g', 'h', 'i', 'j'],
-    'f' : ['g', 'h', 'i', 'j'],
+    'Toyota' : ['Camry', 'Land Cruiser'],
+    'Mersedes' : ['S-class', 'C-class', 'E-class'],
+    'BMW' : ['5-serie', '3-serie', '7-serie'],
+    'Lada' : ['Priora', 'Vesta', 'Granta'],
+    'Hyunday' : ['Solaris']
 }
 
 categories = list(all_categories.keys())
