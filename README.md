@@ -10,6 +10,9 @@ User comands:<br/>
 Admin comands:<br/>
 /add - Добавление нового товара<br/>
 
+Mailing is avaliable on url:<br/>
+/mailing<br/><br/>
+
 In admin panel viewing objects and mailing is possible.<br/>
 
 To run:<br/>
