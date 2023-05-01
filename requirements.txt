@@ -1,0 +1,5 @@
+django
+aiogram
+django-environ
+djangorestframework
+psycopg2

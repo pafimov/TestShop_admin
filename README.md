@@ -20,3 +20,6 @@ Terminal 1:
 
 Terminal 2:
 <code>python manage.py bot</code>
+
+Notice that PostreSQL have to be installed. Configuration of it have to be put in testtask/.env.<br/>
+Token of bot has to be put in users_api/management/commands/.env.
