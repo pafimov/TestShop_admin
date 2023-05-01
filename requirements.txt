@@ -3,3 +3,7 @@ aiogram
 django-environ
 djangorestframework
 psycopg2
+pandas
+openpyxl
+xlsxwriter
+xlrd

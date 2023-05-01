@@ -16,11 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from users_api.views import index, add_user
+from users_api.views import mailing
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', index),
-    path('add/', add_user),
-    path('bought/', add_user),
+    path('mailing/', mailing),
 ]

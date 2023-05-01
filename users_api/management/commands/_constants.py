@@ -12,3 +12,6 @@ categories = list(all_categories.keys())
 page_size = 2
 
 admins = [543151708]
+
+needed_channel = "@nicechannelxd"
+needed_channel_id = -1001929494288
