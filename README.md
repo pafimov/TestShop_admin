@@ -13,6 +13,8 @@ Admin comands:<br/>
 Mailing is avaliable on url:<br/>
 /mailing<br/><br/>
 
+Configuring constant values such as admins, channel id, categories, etc is avaliable in users_api/management/commands/_constants.py file.<br/><br/>
+
 In admin panel viewing objects and mailing is possible.<br/>
 
 To run:<br/>
